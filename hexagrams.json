@@ -1,0 +1,83 @@
+{
+  "hexagrams": [
+    {
+      "key": "yixiao",
+      "name": "颐卦·小颐",
+      "tagline": "饮食养正，节饮食",
+      "match": {"hunger": "low", "scene": "office"},
+      "diet_yi": ["温润", "清淡", "七分饱", "非辣非油炸", "润燥"],
+      "diet_ji": ["辣", "油腻", "冰饮", "超量套餐"],
+      "season": ["秋燥"],
+      "auspicious": "细水长流养正福，小颐温润久安康。",
+      "wishes": {
+        "job":     {"product": "板烧鸡腿堡/麦香鱼", "meaning": "金榜题名/鱼跃龙门", "auspicious": "鱼跃龙门步步高，金榜题名喜讯早。"},
+        "exam":    {"product": "麦满分/吉士汉堡", "meaning": "满分/及第", "auspicious": "满分及第非偶然，静心养正自安然。"},
+        "promote": {"product": "板烧鸡腿堡", "meaning": "金榜题名", "auspicious": "守中持重禄位稳，节饮食以养其身。"},
+        "love":    {"product": "派/麦乐鸡", "meaning": "配对/快乐", "auspicious": "清欢小食甜蜜随，佳偶天成喜上眉。"},
+        "health":  {"product": "麦满分(轻食)", "meaning": "好孕圆满", "auspicious": "好孕圆满意满心，小颐温润养正文。"}
+      }
+    },
+    {
+      "key": "jie",
+      "name": "节卦·节制",
+      "tagline": "节制守中，量入为出",
+      "match": {"hunger": "normal", "scene": "office"},
+      "diet_yi": ["性价比", "单点轻组合", "控预算", "不凑单", "适可而止"],
+      "diet_ji": ["超量套餐", "高价单品", "为凑满减加购", "浪费"],
+      "season": [],
+      "auspicious": "量入为出福自生，节用裕民禄位兴。",
+      "wishes": {
+        "job":     {"product": "麦香鱼(单点)", "meaning": "精打细算步步高", "auspicious": "精打细算步步高，务实进取禄位招。"},
+        "exam":    {"product": "吉士汉堡", "meaning": "及第(经济实惠)", "auspicious": "节用勤学及第早，从容应考志气高。"},
+        "promote": {"product": "板烧鸡腿堡", "meaning": "节节高升", "auspicious": "节节高升稳中有进，守拙抱朴运道通。"},
+        "love":    {"product": "玉米杯", "meaning": "小份甜蜜", "auspicious": "小份甜蜜细水长，两心相惜情意长。"},
+        "health":  {"product": "麦满分(单点)", "meaning": "好孕圆满", "auspicious": "好孕圆满节用早，细水长流福气高。"}
+      }
+    },
+    {
+      "key": "sun",
+      "name": "损卦·减欲",
+      "tagline": "损下益上，减欲轻食",
+      "match": {"hunger": "normal", "scene": "home", "season": "autumn"},
+      "diet_yi": ["轻食", "小份", "少碳水", "蔬果轻搭配", "自节制"],
+      "diet_ji": ["大份", "油炸", "含糖饮料", "暴饮暴食"],
+      "season": ["秋燥"],
+      "auspicious": "损有余而补不足，轻装上阵福自来。",
+      "wishes": {
+        "job":     {"product": "玉米杯", "meaning": "轻装上阵", "auspicious": "轻装上阵offer早，减欲清心路更宽。"},
+        "exam":    {"product": "麦满分(轻)", "meaning": "轻装及第", "auspicious": "减欲静心及第轻，从容落笔榜题名。"},
+        "promote": {"product": "板烧鸡腿堡(小份)", "meaning": "克己升迁", "auspicious": "克己自牧升迁路，损欲修身德业成。"},
+        "love":    {"product": "麦乐鸡(分享)", "meaning": "减欲求和", "auspicious": "减欲求和情意绵，相看两不厌年年。"},
+        "health":  {"product": "麦满分(轻)", "meaning": "好孕圆满", "auspicious": "减欲清心好孕至，轻装养正喜相随。"}
+      }
+    },
+    {
+      "key": "jiji",
+      "name": "既济·小犒赏",
+      "tagline": "事已成济，小犒慰劳",
+      "match": {"hunger": "high", "scene": "out"},
+      "diet_yi": ["小套餐", "蛋白质补给", "适度满足", "犒赏自己", "吃饱不撑"],
+      "diet_ji": ["过量", "超预算", "空腹猛辣", "甜腻堆砌"],
+      "season": [],
+      "auspicious": "事已成济小犒劳，功不唐捐福泽长。",
+      "wishes": {
+        "job":     {"product": "板烧鸡腿堡/巨无霸", "meaning": "大功告成", "auspicious": "大功告成前程锦，新的平台任驰骋。"},
+        "exam":    {"product": "麦满分套餐", "meaning": "金榜题名·满分及第套餐", "auspicious": "金榜题名满分及第，十年寒窗今朝题。"},
+        "promote": {"product": "板烧鸡腿堡", "meaning": "功成名就", "auspicious": "功成名就更上层，再展宏图气象新。"},
+        "love":    {"product": "派+麦乐鸡", "meaning": "成双成对", "auspicious": "成双成对和美圆，佳期如梦喜相连。"},
+        "health":  {"product": "麦满分套餐", "meaning": "好孕圆满", "auspicious": "好孕圆满小犒劳，瓜熟蒂落喜眉梢。"}
+      }
+    }
+  ],
+  "solar_terms": {
+    "春生": {"range": [["02-04", "05-05"]], "alias": ["立春", "雨水", "惊蛰", "春分", "清明", "谷雨"], "yi": ["升发", "清淡", "柔润"], "ji": ["油腻", "过补", "生冷"], "note": "春宜升发，忌油腻过补"},
+    "夏暑": {"range": [["05-05", "08-07"]], "alias": ["立夏", "小满", "芒种", "夏至", "小暑", "大暑"], "yi": ["清润", "清淡", "常温"], "ji": ["贪凉冰饮", "油腻燥热"], "note": "夏不贪凉，宜清润常温"},
+    "秋燥": {"range": [["08-07", "11-07"]], "alias": ["立秋", "处暑", "白露", "秋分", "寒露", "霜降"], "yi": ["润燥", "温润"], "ji": ["冰辛", "辛辣燥热"], "note": "秋燥润燥，忌冰辛"},
+    "冬寒": {"range": [["11-07", "02-04"]], "alias": ["立冬", "小雪", "大雪", "冬至", "小寒", "大寒"], "yi": ["温补", "温热"], "ji": ["生冷"], "note": "冬寒温补，忌生冷"}
+  },
+  "special_dates": [
+    {"mmdd": "07-20", "occasion": "生日", "wish": "birthday", "meaning": "又长一岁·诸事顺遂", "auspicious": "岁岁平安添福寿，年年有余乐无忧。"},
+    {"mmdd": "02-14", "occasion": "情人节", "wish": "love", "meaning": "两心相悦·佳偶天成", "auspicious": "花好月圆人长久，两心相映喜团圆。"},
+    {"mmdd": "00-00", "occasion": "纪念日（示例模板：把 mmdd 改成你的真实日期即生效）", "wish": "anniversary", "meaning": "岁岁年年·情深不移", "auspicious": "携手同行路漫漫，岁岁今朝共此时。"}
+  ]
+}
